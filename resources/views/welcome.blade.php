@@ -27,7 +27,7 @@
                     @auth
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
                     @else
-                        <a href="{{ url('alumnos') }}" class="text-sm text-gray-700 underline mr-3">Alumnos</a>
+                        <a href="{{ url('alumnos') }}" class="text-sm text-gray-700 underline">Alumnos</a>
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Ingresar</a>
 
                         @if (Route::has('register'))
