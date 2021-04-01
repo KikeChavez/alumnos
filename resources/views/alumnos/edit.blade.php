@@ -30,6 +30,6 @@ editar
 
     <input type="submit" value="Actualizar">
 
-    <a href="{{ url('alumnos') }}">Regresar</a>
+    <a href="{{ url('alumnos') }}">Regresar</a> 
 
 </form>
